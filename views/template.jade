@@ -1,0 +1,40 @@
+doctype html
+html
+    head
+        link(href='/public/css/style.css',rel='stylesheet')
+        meta(charset="UTF-8")
+        meta(name="viewport",content="width=device-width, initial-scale=1.0")
+        link(rel="icon",type="image/png",href="public/images/Logo.png")
+        script(src="/public/js/jquery.js")
+        link(rel='stylesheet' href='https://pro.fontawesome.com/releases/v5.10.0/css/all.css' integrity='sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p' crossorigin='anonymous')
+        block title
+    body
+        header
+            div.backgroun___header
+                img.______t(src="/public/images/Untitled-1-01.svg")
+            div#top___navbr
+                div.nav____container
+                    div.header___el___1
+                        div.logo____container
+                            img.logo____container__img(src="/public/images/Logo.png")
+                            div.text___logo Logo
+                        nav
+                            ul.nav__bar__top___page
+                                li
+                                    a(href="#") Accueil
+                                li
+                                    a(href="#") Agence
+                                li
+                                    a(href="#") Apropos de nous
+                                li
+                                    a#last___in___nav__bar(href="#") contact
+                        i#meun___tp__bttn.far.fa-bars(onclick='show___menu()')
+                #lft_nvb.Mobile___nvbar
+                    i#rmv__lftnv.fas.fa-times(onclick='show___menu()')
+                    a(href='#1') accueil
+                    a(href='#2') agence
+                    a(href='#3') apropos de nous
+                    a#last___in___nav__bar_mb(href='#4') contact
+            block svg
+        block content
+        script(src="/public/js/header.js")

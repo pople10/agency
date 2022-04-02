@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="icon" type="image/png" href="Logo.png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+<body>
+    <header>
+        <div class="backgroun___header">
+            <img src="Untitled-1-01.svg" class="______t"/>
+        </div>
+        <div id="top___navbr">
+            <div class="nav____container">
+                <div class="header___el___1">
+                    <div class="logo____container">
+                        <img src="Logo.png" class="logo____container__img"/>
+                        <div class="text___logo">Logo</div>
+                    </div>
+                    <nav>
+                        <ul class="nav__bar__top___page">
+                            <li><a href="#">Accueil</a></li>
+                            <li><a href="#1">agence</a></li>
+                            <li><a href="#12">about us</a></li>
+                            <li><a href="#11">contact</a></li>
+                            <li><a href="#11" id="last___in___nav__bar">contact</a></li>
+                        </ul>
+                    </nav>
+                    <i class="far fa-bars"  id="meun___tp__bttn" onclick="show___menu()"></i>
+                </div>
+            </div>
+            
+        </div>
+        <div class="Mobile___nvbar" id="lft_nvb">
+            <i class="fas fa-times" id="rmv__lftnv" onclick="show___menu()" ></i>
+            <a  href="#1">accueil</a>
+            <a  href="#2">agence</a>
+            <a  href="#3">apropos de nous</a>
+            <a  href="#4" id="last___in___nav__bar_mb">contact</a>
+        </div>
+        <div class="header___container">
+            <div class="header___container__el1">
+                <div class="text____title___type1">XiKalima </div>
+                <div class="text____title___type1">JojKalimat </div>
+                <div class="text____title___type2">Xihaja & Xihaja </div>
+                <div class="text____title___type3">text text text text text text text text text text text text text text text text text text text text text text text text </div>
+                
+            </div>
+            <div class="header___container___el2">
+                <img src="img.png" class="logo____container__img__"/>
+            </div>
+        </div>
+        
+    </header>
+
+    <script>
+        const show___menu = () =>{
+            var lfnvb=document.getElementById('lft_nvb');
+            if(lfnvb.style.left=="-80vw"||lfnvb.style.left=="") lfnvb.style.left=0;
+            else lfnvb.style.left="-80vw";
+        }
+        const afterLoading= () =>{
+            document.getElementById('top___navbr').style.top=0;
+            const header_=document.getElementsByClassName("backgroun___header")[0];
+            header_.style.borderBottomLeftRadius="12%";
+            header_.style.transform="rotate(-7deg)";
+            document.getElementsByClassName("logo____container__img__")[0].style.left=0;
+            document.getElementsByClassName("header___container__el1")[0].style.opacity=1;
+            
+        }
+        $(document).ready(()=>{
+            setTimeout(() => {afterLoading();}, 200);
+        });
+        var first_tac = document.getElementById('text____animated___container0');
+        var text="Test test,";
+        first_tac.innerHTML="";
+        for(let i=0;i<text.length;i++){
+            if(text[i]==' ') first_tac.innerHTML+='<div class="test__e "  style=" padding: 2px 4px; ">  </div>'
+            else first_tac.innerHTML+='<div class="test__e "  onmouseover="TextAnimation(this)" onmouseout="TextAnimation_out(this)">'+text[i]+'</div>'
+        }
+        first_tac = document.getElementById('text____animated___container1');
+        text="Test test test test";
+        first_tac.innerHTML="";
+        for(let i=0;i<text.length;i++){
+            if(text[i]==' ') first_tac.innerHTML+='<div class="test__e "  style=" padding: 2px 4px; ">  </div>'
+            else first_tac.innerHTML+='<div class="test__e "  onmouseover="TextAnimation(this)" onmouseout="TextAnimation_out(this)">'+text[i]+'</div>'
+        }
+        const TextAnimation = (e) => {
+            e.classList.add("animated___text");
+        }
+        const TextAnimation_out = (e) => {
+            e.classList.remove("animated___text");
+        }
+    </script>
+</body>
+</html>

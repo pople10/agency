@@ -1,0 +1,1525 @@
+/home/trackmhr/agency.trackiness.com/server.js:11
+app.any("/api/contact",function(req,res)
+    ^
+
+TypeError: app.any is not a function
+    at Object.<anonymous> (/home/trackmhr/agency.trackiness.com/server.js:11:5)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/trackmhr/agency.trackiness.com/server.js:11
+app.any("/api/contact",function(req,res)
+    ^
+
+TypeError: app.any is not a function
+    at Object.<anonymous> (/home/trackmhr/agency.trackiness.com/server.js:11:5)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/trackmhr/agency.trackiness.com/server.js:11
+app.any("/api/contact",function(req,res)
+    ^
+
+TypeError: app.any is not a function
+    at Object.<anonymous> (/home/trackmhr/agency.trackiness.com/server.js:11:5)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+TypeError: Cannot read property 'email' of undefined
+    at /home/trackmhr/agency.trackiness.com/server.js:13:23
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+TypeError: Cannot read property 'email' of undefined
+    at /home/trackmhr/agency.trackiness.com/server.js:13:23
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at stringify (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:1123:12)
+    at ServerResponse.json (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:260:14)
+    at ServerResponse.send (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:158:21)
+    at /home/trackmhr/agency.trackiness.com/server.js:13:9
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/index.js:281:22
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:267:15)
+    at /home/trackmhr/agency.trackiness.com/server.js:21:25
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/index.js:281:22
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:267:15)
+    at /home/trackmhr/agency.trackiness.com/server.js:21:25
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/index.js:281:22
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:267:15)
+    at /home/trackmhr/agency.trackiness.com/server.js:21:25
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/index.js:281:22
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:267:15)
+    at ServerResponse.send (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:158:21)
+    at /home/trackmhr/agency.trackiness.com/server.js:22:9
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+TypeError: contact.fullfill is not a function
+    at /home/trackmhr/agency.trackiness.com/server.js:22:13
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/index.js:275:10)
+    at /home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/raw-body/index.js:224:16)
+TypeError: contact.fullfill is not a function
+    at /home/trackmhr/agency.trackiness.com/server.js:22:13
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/index.js:275:10)
+    at /home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/raw-body/index.js:224:16)
+TypeError: contact.fullfill is not a function
+    at /home/trackmhr/agency.trackiness.com/server.js:22:13
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/index.js:275:10)
+    at /home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/raw-body/index.js:224:16)
+(node:889373) UnhandledPromiseRejectionWarning: Error: Invalid login: 535 Incorrect authentication data
+    at SMTPConnection._formatError (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:774:19)
+    at SMTPConnection._actionAUTHComplete (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:1513:34)
+    at SMTPConnection._responseActions.push.str (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:540:26)
+    at SMTPConnection._processResponse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:932:20)
+    at SMTPConnection._onData (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:739:14)
+    at TLSSocket.SMTPConnection._onSocketData.chunk (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:189:44)
+    at TLSSocket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at TLSSocket.Readable.push (_stream_readable.js:224:10)
+(node:889373) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:889373) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:889373) UnhandledPromiseRejectionWarning: Error: Invalid login: 535 Incorrect authentication data
+    at SMTPConnection._formatError (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:774:19)
+    at SMTPConnection._actionAUTHComplete (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:1513:34)
+    at SMTPConnection._responseActions.push.str (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:540:26)
+    at SMTPConnection._processResponse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:932:20)
+    at SMTPConnection._onData (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:739:14)
+    at TLSSocket.SMTPConnection._onSocketData.chunk (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:189:44)
+    at TLSSocket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at TLSSocket.Readable.push (_stream_readable.js:224:10)
+(node:889373) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:267:15)
+    at /home/trackmhr/agency.trackiness.com/server.js:29:25
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/index.js:281:22
+(node:893775) UnhandledPromiseRejectionWarning: Error: Invalid login: 535 Incorrect authentication data
+    at SMTPConnection._formatError (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:774:19)
+    at SMTPConnection._actionAUTHComplete (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:1513:34)
+    at SMTPConnection._responseActions.push.str (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:540:26)
+    at SMTPConnection._processResponse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:932:20)
+    at SMTPConnection._onData (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:739:14)
+    at TLSSocket.SMTPConnection._onSocketData.chunk (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:189:44)
+    at TLSSocket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at TLSSocket.Readable.push (_stream_readable.js:224:10)
+(node:893775) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:893775) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:909497) UnhandledPromiseRejectionWarning: Error: Invalid login: 535 Incorrect authentication data
+    at SMTPConnection._formatError (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:774:19)
+    at SMTPConnection._actionAUTHComplete (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:1513:34)
+    at SMTPConnection._responseActions.push.str (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:540:26)
+    at SMTPConnection._processResponse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:932:20)
+    at SMTPConnection._onData (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:739:14)
+    at TLSSocket.SMTPConnection._onSocketData.chunk (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:189:44)
+    at TLSSocket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at TLSSocket.Readable.push (_stream_readable.js:224:10)
+(node:909497) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:909497) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+{ Error: Invalid login: 535 Incorrect authentication data
+    at SMTPConnection._formatError (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:774:19)
+    at SMTPConnection._actionAUTHComplete (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:1513:34)
+    at SMTPConnection._responseActions.push.str (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:540:26)
+    at SMTPConnection._processResponse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:932:20)
+    at SMTPConnection._onData (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:739:14)
+    at TLSSocket.SMTPConnection._onSocketData.chunk (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:189:44)
+    at TLSSocket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at TLSSocket.Readable.push (_stream_readable.js:224:10)
+  code: 'EAUTH',
+  response: '535 Incorrect authentication data',
+  responseCode: 535,
+  command: 'AUTH PLAIN' }
+TypeError: Cannot read property 'email' of undefined
+    at /home/trackmhr/agency.trackiness.com/server.js:25:27
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/index.js:275:10)
+    at /home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/raw-body/index.js:224:16)
+/home/trackmhr/agency.trackiness.com/validatorModule/index.js:15
+module.exports = new Validator();
+                 ^
+
+TypeError: Validator is not a constructor
+    at Object.<anonymous> (/home/trackmhr/agency.trackiness.com/validatorModule/index.js:15:18)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/trackmhr/agency.trackiness.com/server.js:8:19)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+/home/trackmhr/agency.trackiness.com/validatorModule/index.js:15
+module.exports = new Validator();
+                 ^
+
+TypeError: Validator is not a constructor
+    at Object.<anonymous> (/home/trackmhr/agency.trackiness.com/validatorModule/index.js:15:18)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/trackmhr/agency.trackiness.com/server.js:8:19)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+/home/trackmhr/agency.trackiness.com/validatorModule/index.js:15
+module.exports = new Validator();
+                 ^
+
+TypeError: Validator is not a constructor
+    at Object.<anonymous> (/home/trackmhr/agency.trackiness.com/validatorModule/index.js:15:18)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/trackmhr/agency.trackiness.com/server.js:8:19)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+/home/trackmhr/agency.trackiness.com/validatorModule/index.js:15
+module.exports = new Validator();
+                 ^
+
+TypeError: Validator is not a constructor
+    at Object.<anonymous> (/home/trackmhr/agency.trackiness.com/validatorModule/index.js:15:18)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/trackmhr/agency.trackiness.com/server.js:8:19)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+/home/trackmhr/agency.trackiness.com/validatorModule/index.js:15
+module.exports = new Validator();
+                 ^
+
+TypeError: Validator is not a constructor
+    at Object.<anonymous> (/home/trackmhr/agency.trackiness.com/validatorModule/index.js:15:18)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/trackmhr/agency.trackiness.com/server.js:8:19)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+/home/trackmhr/agency.trackiness.com/validatorModule/index.js:15
+module.exports = new Validator();
+                 ^
+
+TypeError: Validator is not a constructor
+    at Object.<anonymous> (/home/trackmhr/agency.trackiness.com/validatorModule/index.js:15:18)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/trackmhr/agency.trackiness.com/server.js:8:19)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:267:15)
+    at /home/trackmhr/agency.trackiness.com/server.js:20:25
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/index.js:281:22
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:267:15)
+    at /home/trackmhr/agency.trackiness.com/server.js:20:25
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/index.js:281:22
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:267:15)
+    at /home/trackmhr/agency.trackiness.com/server.js:20:25
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/index.js:281:22
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:267:15)
+    at /home/trackmhr/agency.trackiness.com/server.js:20:25
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/index.js:281:22
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:267:15)
+    at /home/trackmhr/agency.trackiness.com/server.js:20:25
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/index.js:281:22
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:267:15)
+    at /home/trackmhr/agency.trackiness.com/server.js:30:25
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/index.js:281:22
+{ Error: Can't send mail - all recipients were rejected: 550-The mail server could not deliver mail to med.amine.ayache@gmail.  The
+550-account or domain may not exist, they may be blacklisted, or missing the
+550 proper dns entries.
+    at SMTPConnection._formatError (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:774:19)
+    at SMTPConnection._actionRCPT (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:1603:28)
+    at SMTPConnection._responseActions.push.str (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:1556:30)
+    at SMTPConnection._processResponse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:932:20)
+    at SMTPConnection._onData (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:739:14)
+    at TLSSocket.SMTPConnection._onSocketData.chunk (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:189:44)
+    at TLSSocket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at TLSSocket.Readable.push (_stream_readable.js:224:10)
+  code: 'EENVELOPE',
+  response:
+   '550-The mail server could not deliver mail to med.amine.ayache@gmail.  The\n550-account or domain may not exist, they may be blacklisted, or missing the\n550 proper dns entries.',
+  responseCode: 550,
+  command: 'RCPT TO',
+  rejected: [ 'med.amine.ayache@gmail' ],
+  rejectedErrors:
+   [ { Error: Recipient command failed: 550-The mail server could not deliver mail to med.amine.ayache@gmail.  The
+     550-account or domain may not exist, they may be blacklisted, or missing the
+     550 proper dns entries.
+         at SMTPConnection._formatError (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:774:19)
+         at SMTPConnection._actionRCPT (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:1589:24)
+         at SMTPConnection._responseActions.push.str (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:1556:30)
+         at SMTPConnection._processResponse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:932:20)
+         at SMTPConnection._onData (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:739:14)
+         at TLSSocket.SMTPConnection._onSocketData.chunk (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:189:44)
+         at TLSSocket.emit (events.js:198:13)
+         at addChunk (_stream_readable.js:288:12)
+         at readableAddChunk (_stream_readable.js:269:11)
+         at TLSSocket.Readable.push (_stream_readable.js:224:10)
+       code: 'EENVELOPE',
+       response:
+        '550-The mail server could not deliver mail to med.amine.ayache@gmail.  The\n550-account or domain may not exist, they may be blacklisted, or missing the\n550 proper dns entries.',
+       responseCode: 550,
+       command: 'RCPT TO',
+       recipient: 'med.amine.ayache@gmail' } ] }
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:267:15)
+    at /home/trackmhr/agency.trackiness.com/server.js:30:25
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/index.js:281:22
+{ Error: Can't send mail - all recipients were rejected: 550-The mail server could not deliver mail to med.amine.ayache@gmail.  The
+550-account or domain may not exist, they may be blacklisted, or missing the
+550 proper dns entries.
+    at SMTPConnection._formatError (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:774:19)
+    at SMTPConnection._actionRCPT (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:1603:28)
+    at SMTPConnection._responseActions.push.str (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:1556:30)
+    at SMTPConnection._processResponse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:932:20)
+    at SMTPConnection._onData (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:739:14)
+    at TLSSocket.SMTPConnection._onSocketData.chunk (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:189:44)
+    at TLSSocket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at TLSSocket.Readable.push (_stream_readable.js:224:10)
+  code: 'EENVELOPE',
+  response:
+   '550-The mail server could not deliver mail to med.amine.ayache@gmail.  The\n550-account or domain may not exist, they may be blacklisted, or missing the\n550 proper dns entries.',
+  responseCode: 550,
+  command: 'RCPT TO',
+  rejected: [ 'med.amine.ayache@gmail' ],
+  rejectedErrors:
+   [ { Error: Recipient command failed: 550-The mail server could not deliver mail to med.amine.ayache@gmail.  The
+     550-account or domain may not exist, they may be blacklisted, or missing the
+     550 proper dns entries.
+         at SMTPConnection._formatError (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:774:19)
+         at SMTPConnection._actionRCPT (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:1589:24)
+         at SMTPConnection._responseActions.push.str (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:1556:30)
+         at SMTPConnection._processResponse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:932:20)
+         at SMTPConnection._onData (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:739:14)
+         at TLSSocket.SMTPConnection._onSocketData.chunk (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/nodemailer/lib/smtp-connection/index.js:189:44)
+         at TLSSocket.emit (events.js:198:13)
+         at addChunk (_stream_readable.js:288:12)
+         at readableAddChunk (_stream_readable.js:269:11)
+         at TLSSocket.Readable.push (_stream_readable.js:224:10)
+       code: 'EENVELOPE',
+       response:
+        '550-The mail server could not deliver mail to med.amine.ayache@gmail.  The\n550-account or domain may not exist, they may be blacklisted, or missing the\n550 proper dns entries.',
+       responseCode: 550,
+       command: 'RCPT TO',
+       recipient: 'med.amine.ayache@gmail' } ] }
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:267:15)
+    at /home/trackmhr/agency.trackiness.com/server.js:30:25
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/index.js:281:22
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:267:15)
+    at /home/trackmhr/agency.trackiness.com/server.js:30:25
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/index.js:281:22
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:267:15)
+    at /home/trackmhr/agency.trackiness.com/server.js:30:25
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/index.js:281:22
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:267:15)
+    at /home/trackmhr/agency.trackiness.com/server.js:30:25
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/index.js:281:22
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:267:15)
+    at /home/trackmhr/agency.trackiness.com/server.js:30:25
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/index.js:281:22
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:267:15)
+    at /home/trackmhr/agency.trackiness.com/server.js:30:25
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/index.js:281:22
+(node:276184) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:276184) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:276184) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Error: Cannot find module 'jade'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at new View (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/view.js:81:14)
+    at Function.render (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/response.js:1012:7)
+    at /home/trackmhr/agency.trackiness.com/server.js:49:9
+    at Layer.handle [as handle_request] (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/express/lib/router/route.js:137:13)
+(node:455623) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:455623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:455623) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:455623) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:455623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+(node:455623) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:455623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 3)
+(node:455623) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:455623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 4)
+(node:455623) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:455623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 5)
+(node:455623) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:455623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 6)
+(node:455623) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:455623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 7)
+(node:455623) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:455623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 8)
+(node:455623) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:455623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 9)
+(node:455623) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:455623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 10)
+(node:455623) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:455623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 11)
+(node:455623) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:455623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 12)
+(node:455623) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:455623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 13)
+(node:455623) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:455623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 14)
+(node:455623) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:455623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 15)
+(node:455623) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:455623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 16)
+(node:455623) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:455623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 17)
+(node:455623) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:455623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 18)
+(node:455623) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:455623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 19)
+(node:455623) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:455623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 20)
+(node:455623) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:455623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 21)
+Warning: Unexpected block "title"  on line 2 of /home/trackmhr/agency.trackiness.com/views/index.jade. This block is never used. This warning will be an error in v2.0.0
+(node:455623) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:455623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 22)
+(node:455623) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:455623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 23)
+Warning: Unexpected block "title"  on line 2 of /home/trackmhr/agency.trackiness.com/views/index.jade. This block is never used. This warning will be an error in v2.0.0
+(node:455623) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:455623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 24)
+(node:455623) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:455623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 25)
+(node:455623) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:455623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 26)
+(node:455623) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:455623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 27)
+(node:455623) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:455623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 28)
+(node:455623) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:455623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 29)
+(node:455623) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:455623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 30)
+SyntaxError: /home/trackmhr/agency.trackiness.com/views/template.jade:9
+    7|         link(rel="icon",type="image/png",href="public/images/Logo.png")
+    8|         script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js")
+  > 9|         integrity='sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p' crossorigin='anonymous'
+    10|         block title
+    11|     body
+    12|         header
+
+Unexpected identifier
+    at Function (<anonymous>)
+    at assertExpression (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/jade/lib/lexer.js:30:3)
+    at Lexer.code (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/jade/lib/lexer.js:584:23)
+    at Lexer.next (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/jade/lib/lexer.js:936:15)
+    at Lexer.lookahead (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/jade/lib/lexer.js:113:46)
+    at Parser.lookahead (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/jade/lib/parser.js:102:23)
+    at Parser.peek (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/jade/lib/parser.js:79:17)
+    at Parser.tag (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/jade/lib/parser.js:773:22)
+    at Parser.parseTag (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/jade/lib/parser.js:759:17)
+    at Parser.parseExpr (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/jade/lib/parser.js:211:21)
+(node:455623) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:455623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 31)
+(node:455623) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:455623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 32)
+(node:455623) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:455623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 33)
+(node:455623) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:455623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 34)
+(node:455623) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:455623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 35)
+(node:455623) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:455623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 36)
+(node:905837) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:905837) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:905837) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:905837) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:905837) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+(node:905837) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:905837) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 3)
+/home/trackmhr/agency.trackiness.com/server.js:14
+app.use(static("public"));
+    ^
+
+ReferenceError: static is not defined
+    at Object.<anonymous> (/home/trackmhr/agency.trackiness.com/server.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/trackmhr/agency.trackiness.com/server.js:14
+app.use(static("public"));
+    ^
+
+ReferenceError: static is not defined
+    at Object.<anonymous> (/home/trackmhr/agency.trackiness.com/server.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/trackmhr/agency.trackiness.com/server.js:14
+app.use(static("public"));
+    ^
+
+ReferenceError: static is not defined
+    at Object.<anonymous> (/home/trackmhr/agency.trackiness.com/server.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/trackmhr/agency.trackiness.com/server.js:14
+app.use(static("public"));
+    ^
+
+ReferenceError: static is not defined
+    at Object.<anonymous> (/home/trackmhr/agency.trackiness.com/server.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/trackmhr/agency.trackiness.com/server.js:14
+app.use(static("public"));
+    ^
+
+ReferenceError: static is not defined
+    at Object.<anonymous> (/home/trackmhr/agency.trackiness.com/server.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/trackmhr/agency.trackiness.com/server.js:14
+app.use(static("public"));
+    ^
+
+ReferenceError: static is not defined
+    at Object.<anonymous> (/home/trackmhr/agency.trackiness.com/server.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/trackmhr/agency.trackiness.com/server.js:14
+app.use(static("public"));
+    ^
+
+ReferenceError: static is not defined
+    at Object.<anonymous> (/home/trackmhr/agency.trackiness.com/server.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/trackmhr/agency.trackiness.com/server.js:14
+app.use(static("public"));
+    ^
+
+ReferenceError: static is not defined
+    at Object.<anonymous> (/home/trackmhr/agency.trackiness.com/server.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/trackmhr/agency.trackiness.com/server.js:14
+app.use(static("public"));
+    ^
+
+ReferenceError: static is not defined
+    at Object.<anonymous> (/home/trackmhr/agency.trackiness.com/server.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/trackmhr/agency.trackiness.com/server.js:14
+app.use(static("public"));
+    ^
+
+ReferenceError: static is not defined
+    at Object.<anonymous> (/home/trackmhr/agency.trackiness.com/server.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/trackmhr/agency.trackiness.com/server.js:14
+app.use(static("public"));
+    ^
+
+ReferenceError: static is not defined
+    at Object.<anonymous> (/home/trackmhr/agency.trackiness.com/server.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/trackmhr/agency.trackiness.com/server.js:14
+app.use(static("public"));
+    ^
+
+ReferenceError: static is not defined
+    at Object.<anonymous> (/home/trackmhr/agency.trackiness.com/server.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/trackmhr/agency.trackiness.com/server.js:14
+app.use(static("public"));
+    ^
+
+ReferenceError: static is not defined
+    at Object.<anonymous> (/home/trackmhr/agency.trackiness.com/server.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/trackmhr/agency.trackiness.com/server.js:14
+app.use(static("public"));
+    ^
+
+ReferenceError: static is not defined
+    at Object.<anonymous> (/home/trackmhr/agency.trackiness.com/server.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/trackmhr/agency.trackiness.com/server.js:14
+app.use(static("public"));
+    ^
+
+ReferenceError: static is not defined
+    at Object.<anonymous> (/home/trackmhr/agency.trackiness.com/server.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/trackmhr/agency.trackiness.com/server.js:14
+app.use(static("public"));
+    ^
+
+ReferenceError: static is not defined
+    at Object.<anonymous> (/home/trackmhr/agency.trackiness.com/server.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+(node:927686) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:927686) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:927686) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:928024) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:928024) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:928024) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:928024) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:928024) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+(node:928024) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:928024) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 3)
+(node:928024) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:928024) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 4)
+(node:928024) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:928024) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 5)
+(node:928024) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:928024) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 6)
+(node:928024) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:928024) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 7)
+(node:928024) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:928024) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 8)
+(node:928024) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:928024) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 9)
+(node:928024) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:928024) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 10)
+(node:928024) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:928024) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 11)
+(node:928024) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:928024) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 12)
+(node:928024) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:928024) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 13)
+(node:529807) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:529807) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:529807) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:529807) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:529807) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+(node:529807) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:529807) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 3)
+(node:529807) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:529807) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 4)
+(node:529807) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:529807) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 5)
+(node:529807) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:529807) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 6)
+(node:529807) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:529807) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 7)
+(node:529807) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:529807) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 8)
+(node:529807) UnhandledPromiseRejectionWarning: error: duplicate key value violates unique constraint "visits_ip_key"
+    at Parser.parseErrorMessage (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.stream.on (/home/trackmhr/nodevenv/agency.trackiness.com/10/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+(node:529807) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 9)
